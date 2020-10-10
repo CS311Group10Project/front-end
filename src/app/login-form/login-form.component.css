@@ -18,3 +18,16 @@
 
 
 /* [ ROUND: 1 || CODE: 7 BY: GOBINA ] */
+button {
+      outline: none !important;
+      border: none;
+      background: transparent;
+  }
+  
+  button:hover {
+      cursor: pointer;
+  }
+  
+  iframe {
+      border: none !important;
+  }
