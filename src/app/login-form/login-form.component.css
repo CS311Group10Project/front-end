@@ -1,10 +1,3 @@
-/* ADD YOU CODE HERE */
-/* ================= */
-
-
-
-
-
 /* [ ROUND: 1 || CODE: 3 BY: NIMASHA ] */
 
 
@@ -12,7 +5,17 @@
 
 
 /* [ ROUND: 1 || CODE: 5 BY: ANUTHTHARA ] */
-
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+p{
+    font-family: SourseSansPro-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+    list-style-type: none;
+}
 
 /* [ ROUND: 1 || CODE: 6 BY: SAHEEKA ] */
 
