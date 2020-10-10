@@ -15,6 +15,29 @@
 
 
 /* [ ROUND: 1 || CODE: 6 BY: SAHEEKA ] */
-
+input {
+      outline: none;
+      border: none;
+  }
+  
+  textarea {
+    outline: none;
+    border: none;
+  }
+  
+  textarea:focus, input:focus {
+    border-color: transparent !important;
+  }
+  
+  input::-webkit-input-placeholder { color: #4b2354;}
+  input:-moz-placeholder { color: #4b2354;}
+  input::-moz-placeholder { color: #4b2354;}
+  input:-ms-input-placeholder { color: #4b2354;}
+  
+  textarea::-webkit-input-placeholder { color: #4b2354;}
+  textarea:-moz-placeholder { color: #4b2354;}
+  textarea::-moz-placeholder { color: #4b2354;}
+  textarea:-ms-input-placeholder { color: #4b2354;}  
+  /*---------------------------------------------*/
 
 /* [ ROUND: 1 || CODE: 7 BY: GOBINA ] */
