@@ -193,3 +193,27 @@ iframe {
   
 
   /* [ ROUND: 1 || CODE: 11 BY: THARAKA ] */
+
+   /*------------------------------------------------------------------
+  [ Input ]*/
+  
+  .wrap-input100 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .input100 {
+    font-family: SourceSansPro-Bold;
+    font-size: 16px;
+    color: #4b2354;
+    line-height: 1.2;
+  
+    display: block;
+    width: 100%;
+    height: 62px;
+    background: transparent;
+    padding: 1px 20px 1px 23px;
+  }
+  
