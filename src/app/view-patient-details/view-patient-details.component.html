@@ -1,38 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>New Patient Registration</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<title>Login V19</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-   
-    <div class="container">
-        <div class="text-center">
-            
-                <div class="row">
-                    <div class="col-md-12">
-                       
-                            <div class="alert alert-danger" role="alert">
-                               
-                            </div>
-                       
-                        <form method="post" action="">
-                        
-                            <input type="text" class="form-control" name="task" placeholder="Enter Patient Name Here...">
-                            <br>
-                            <input type="submit" class="btn btn-primary" value="SAVE">
-                            <input type="button" class="btn btn-warning" value="CLEAR">
-                        </form>
-                        <br>
-                       
-                    </div>
-                </div>
-        </div>
-    </div>
+	
+	<div class="limiter" style="background-image: url('assets/view-patient-details-page/images/background.png');">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-33">
+						PATIENT
+					</span>
 
+					<div class="wrap-input100 rs1 validate-input" data-validate="NIC is required">
+						<input class="input100" type="text" name="nic" placeholder="NIC">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn">View Patient</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>

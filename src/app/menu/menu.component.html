@@ -1,11 +1,43 @@
-<h1>Welcome to NCD Registration System!</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<div>
-  <p>This is the Digital Registration System of NCD Hospitals. Use one of the following option to Registration.</p>
-</div>
+<head>
+	<title>Login V9</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<form action="">
-  <button><a routerLink="/Admin">Administrator</a></button>
-  <button><a routerLink="/NewPatient">New Patient Registration</a></button>
-  <button><a routerLink="/PatientDetails">View Patient Details</a></button>
-</form>
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+</head>
+
+<body>
+
+	<div class="container-login100" style="background-image: url('assets/main-login-form/images/main-login-form-background.png');">
+    
+    <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">       
+      <div class="container-login100-form-btn">
+        <img src="assets/menu-logo/add-patient.jpg" alt="">
+        <button class="login100-form-btn"><a routerLink="/NewPatient">ADD PATIENT</a></button>
+      </div>      
+    </div>
+    
+  <!--
+    <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">       
+      <div class="container-login100-form-btn">
+        <button class="login100-form-btn"><a routerLink="/Admin">Administrator</a></button>
+      </div>      
+    </div>
+  -->
+    
+    <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">       
+      <div class="container-login100-form-btn">
+        <img src="assets/menu-logo/search-patient.jpg" alt="">
+        <button class="login100-form-btn"><a routerLink="/PatientDetails">VIEW PATIENT</a></button>
+      </div>      
+    </div>
+    
+	</div>
+
+    <div id="dropDownSelect1"></div>	
+
+</body>
+</html>

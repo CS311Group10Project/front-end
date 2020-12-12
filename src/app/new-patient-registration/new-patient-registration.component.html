@@ -1,99 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>New Patient Registration</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Patient</title>
 </head>
+
 <body>
-  
-	<!-- Content of the Page -->
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="assets/new-patient-registration-page/new-patient-registration-page.jpg" alt="">
+                </div>
+                <div class="signup-form">
+                    
+                    <form method="POST" class="register-form" id="register-form">
+                        
+                        <h2>New Patient Registration</h2>
+                        
+                        <div class="form-group">
+                            <label for="first_name">First Name :</label>
+                            <input type="text" name="first_name" id="first_name" required/>
+                        </div>
 
-		
-		<!-- Login Form for New Users -->
-		kljhkjh
-				<br><br>
-				<table align="center" class="">
-					<tr>
-	 					<td>Name:</td>
-	 					<td><input type="text" placeholder="Userame" name="username" required></td>
- 					</tr>
- 					<tr><td></td></tr>
- 					<tr><td></td></tr>
- 					<tr>
- 						<td>NIC:</td>
-	 					<td><input type="text" placeholder="NIC" name="nic" required></td>
- 					</tr>
- 					<tr><td></td></tr>
- 					<tr><td></td></tr>
-	 				<tr>
-	 					<td>Date of Birth:</td>
-	 					<td><input type="date" placeholder="Date of Birth" name="dob" required></td>
-	 				</tr>
-	 				<tr><td></td></tr>
- 					<tr><td></td></tr>
-	 				<tr>
-	 					<td>Gender:</td>
-	 					<td>
-	 						<input [type="radio"] {float: left; width: 50px; margin-right: 10px;} type="radio" name="gender" value="M" required>Male
-	 						<input type="radio" name="gender" value="F" required>Female
-	 					</td>
-	 				</tr>
-	 				<tr><td></td></tr>
- 					<tr><td></td></tr>
-					 <tr>
-	 					<td>Patient'sAge:</td>
-	 					<td>
-	 						<input type="text" placeholder="Number" name="number"><br>
+                        <div class="form-group">
+                            <label for="last_name">Last Name :</label>
+                            <input type="text" name="last_name" id="last_name" required/>
+                        </div>
 
-	 					</td>
-	 				</tr>
-	 				<tr><td></td></tr>
- 					<tr><td></td></tr>
+                        <div class="form-group">
+                            <label for="nic">NIC :</label>
+                            <input type="text" name="nic" id="nic" required/>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Address :</label>
+                            <input type="text" name="address" id="address" required/>
+                        </div>
 
-	 				<tr>
-	 					<td>Address:</td>
-	 					<td>
-	 						<input type="text" placeholder="Residance No" name="residance_no"><br>
-	 						<input type="text" placeholder="Street/Lane" name="street_lane"><br>
-	 						<input type="text" placeholder="Division" name="division"><br>
-	 						<input type="text" placeholder="District" name="district"><br>
-	 					</td>
-	 				</tr>
-	 				<tr><td></td></tr>
- 					<tr><td></td></tr>
-	 				<tr>
-	 					<td>Contact No:</td>
-	 					<td><input type="phone" placeholder="+94xxxxxxxxx" name="phone" required></td>
-	 				</tr>
-	 				<tr><td></td></tr>
- 					<tr><td></td></tr>
-	 				<tr>
-	 					<td>Email:</td>
-	 					<td><input type="email" placeholder="Email" name="email" required></td>
-	 				</tr>
-	 				<tr><td></td></tr>
- 					<tr><td></td></tr>
-	 				<tr>
-	 					<td>Height:</td>
-	 					<td><input type="height" placeholder="Height in cm" name="height" required></td>
-	 				</tr>
-	 				<tr><td></td></tr>
- 					<tr><td></td></tr>
-	 				<tr>
-	 					<td>Weight:</td>
-	 					<td><input type="weight" placeholder="Weight in kg" name="weight" required></td>
-	 				</tr>
-	 				<tr><td></td></tr>
- 					<tr><td></td></tr>
-	 				<tr>
-	 					<td>Other Medical Conditions:</td>
-	 					<td><input type="text" placeholder="surgeries previously had, allergies, diabetes etc." name="other_medical_conditions" requried></td>
-	 				</tr>
-				</table>
-				<br><br>
-			
-</body>
-</html>
+                        <div class="form-group">
+                            <label for="contact_number">Contact Number :</label>
+                            <input type="text" name="contact_number" id="contact_number" required/>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address :</label>
+                            <input type="email" name="email" id="email" required/>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="dob">Date of Birth :</label>
+                            <input type="text" name="dob" id="dob" required/>
+                        </div>
+
+                        <div class="form-radio">
+                            <label for="gender" class="radio-label">Gender :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="male" checked>
+                                <label for="male">Male</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="omc">Other Medical Conditions :</label>
+                            <input type="text" name="omc" id="omc" required/>
+                        </div>
+
+                        <div class="form-submit">
+                            <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   </body>
+   </html>
